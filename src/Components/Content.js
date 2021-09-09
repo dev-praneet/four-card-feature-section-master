@@ -4,12 +4,14 @@ import { ReactComponent as IconKarma } from '../images/icon-karma.svg';
 import { ReactComponent as IconCalculator } from '../images/icon-calculator.svg';
 import styled from 'styled-components';
 import Card from './Card';
+import { getRoles } from '@testing-library/react';
 
 const Content = styled.div`
 
 `;
 
-const IIconSupervisor = <IconSupervisor />;
+const IIconSupervisor = <IconSupervisor fill= {"white"}
+ style={{marginLeft: "auto", height: "20px",}} />;
 const IIconTeamBuilder = <IconTeamBuilder />;
 const IIconKarma = <IconKarma />;
 const IIconCalculator = <IconCalculator />;
