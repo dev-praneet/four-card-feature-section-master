@@ -33,6 +33,9 @@ export default (props) => {
                 <Text>
                     {props.props.text}
                 </Text>
+                <div>
+                    {props.props.icon}
+                </div>
             </Main>
         </Card>
     )
