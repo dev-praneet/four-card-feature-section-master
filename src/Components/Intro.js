@@ -17,6 +17,8 @@ const H1 = styled.h1`
 
 const Text = styled.p`
 font-weight: 400;
+max-width: 450px;
+margin: auto;
 text-align: center;
 padding-top: 1em;
 color: ${props => props.theme.color.grayishBlue};

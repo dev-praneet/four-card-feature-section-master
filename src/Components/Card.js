@@ -1,8 +1,13 @@
 import styled from 'styled-components';
 
 const Card = styled.div`
-margin-top: 2em;
-box-shadow: 0em 0em 0.1em;
+box-shadow: 0em 0em 0.2em;
+
+@media (min-width: ${props => props.theme.breakpoint.mobile}) {
+    grid-row: span 2;
+    grid-column: span 1;
+    grid-area: ${props => props.props.gridArea};
+}
 `;
 
 const TopBar = styled.div`
@@ -22,9 +27,13 @@ const Text = styled.p`
 color: ${props => props.theme.color.grayishBlue}
 `;
 
+const Dummy = styled.div`
+height: 2em;
+`;
+
 export default (props) => {
     return (
-        <Card>
+        <Card props={props.props}>
             <TopBar props={props.props}/>
             <Main>
                 <Title>
@@ -33,6 +42,7 @@ export default (props) => {
                 <Text>
                     {props.props.text}
                 </Text>
+                <Dummy />
                 <div>
                     {props.props.icon}
                 </div>
