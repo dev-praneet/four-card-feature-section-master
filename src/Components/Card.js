@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 const Card = styled.div`
-box-shadow: 0em 0em 0.2em;
+// max-width: 300px;
+background-color: hsl(0, 0%, 100%);
+box-shadow: 0em 1em 2em #ddd;
 
 @media (min-width: ${props => props.theme.breakpoint.mobile}) {
     grid-row: span 2;

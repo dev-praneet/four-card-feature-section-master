@@ -11,7 +11,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -49,13 +48,7 @@ Users should be able to:
 
 - Learnt to work with CSS grid
 - Learnt to work with SVG
-
-
-### Continued development
-
-I have to change the box-shadow property to improve the look.
-
-
+- Learnt to use Box-Shadow
 
 ### Useful resources
 
@@ -65,4 +58,3 @@ I have to change the box-shadow property to improve the look.
 
 - Frontend Mentor - [@geeky-amat](https://www.frontendmentor.io/profile/geeky-amat)
 - Twitter - [@GeekyAmat](https://www.twitter.com/GeekyAmat)
-

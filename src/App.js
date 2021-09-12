@@ -10,7 +10,7 @@ max-width: min(80%, 375px);
 margin: 0 auto;
 
 @media (min-width: ${props => props.theme.breakpoint.mobile}) {
-  max-width: 80%;
+  max-width: min(80%, 1200px);
 }
 `;
 
