@@ -49,6 +49,7 @@ Users should be able to:
 - Learnt to work with CSS grid
 - Learnt to work with SVG
 - Learnt to use Box-Shadow
+- [Learnt that even React components can be passed as props](https://reactjs.org/docs/composition-vs-inheritance.html)
 
 ### Useful resources
 
